@@ -28,7 +28,7 @@ public class LoginPOM {
 	}
 	
 	public void sendPassword(String password) {
-		this.password.clear(); 
+		this.password.clear(); 		
 		this.password.sendKeys(password); 
 	}
 	
